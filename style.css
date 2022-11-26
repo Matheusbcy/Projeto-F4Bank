@@ -1,0 +1,253 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.body-div {
+  background-image: url(img/WhatsApp\ Image\ 2022-11-09\ at\ 15.52.56.jpeg);
+  background-size: cover;
+}
+.conteiner-header-nav {
+  display: flex;
+  height: 10vh;
+  position: sticky;
+  top: 0;
+  background-color: white;
+}
+nav {
+  display: flex;
+}
+.lista-nav {
+  display: flex;
+  margin-left: 10px;
+  align-self: center;
+}
+li {
+  list-style: none;
+  font-size: 23px;
+  margin-right: 30px;
+}
+.logo {
+  height: 10vh;
+  margin-left: 75px;
+}
+.button-main {
+  margin-top: 50px;
+  background-color: orange;
+  width: 150px;
+  height: 70px;
+  border-radius: 10px;
+  font-size: 20px;
+}
+.button-main:hover {
+  cursor: pointer;
+  background-color: #ff8311;
+  color: black;
+}
+h1 {
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 5.4em;
+}
+.conteiner-main {
+  height: 77vh;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-left: 50px;
+}
+.main-section {
+  align-self: center;
+  justify-self: center;
+  color: white;
+}
+.div-main {
+  display: flex;
+}
+.body-div p {
+  font-size: 1.3em;
+  margin-top: 50px;
+  margin-left: 50px;
+  width: 350px;
+  word-spacing: 2px;
+  line-height: 28px;
+}
+footer {
+  height: 20vh;
+  background-color: #111111;
+  color: white;
+  border-top: 2px solid white;
+}
+.section-img {
+  align-self: center;
+  width: 200px;
+}
+.app-banco {
+  width: 40vw;
+  height: 60vh;
+}
+aside {
+  font-size: 23px;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+.li-link-login {
+  margin-left: 16vw;
+}
+.link-login:hover {
+  background-color: black;
+  color: white;
+  padding: 5px 25px;
+  font-weight: bold;
+  border-radius: 30px;
+  margin: 4px;
+}
+.link-registrar {
+  background-color: orange;
+  padding: 10px;
+  margin: 10px 0 0 0;
+  border-radius: 30px;
+  font-weight: bold;
+}
+.link-nav-nav:hover {
+  background-color: orange;
+  color: black;
+  padding: 20px;
+  font-weight: bold;
+}
+figure {
+  display: flex;
+  margin-top: 30px;
+}
+.icones-phone {
+  width: 80px;
+  height: 70px;
+  margin-left: 20px;
+}
+figcaption {
+  margin: 25px 0 20px 10px;
+  font-size: 22px;
+  width: 250px;
+  word-spacing: 2px;
+  line-height: 28px;
+  text-shadow: 1px 1px black;
+}
+.section-figure {
+  display: flex;
+  color: white;
+}
+.email {
+  display: flex;
+padding-top: 10px;
+justify-content: center
+}
+#input-footer {
+  margin: 10px 0 10px;
+height: 40px;
+border-radius: 10px;
+padding: 0px 2px 0 10px;
+margin-left: 20px;
+border: none;
+box-shadow: 0 0 2px rgba(0, 0, 0, 0.8);
+}
+.text {
+  margin: 20px 0 10px;
+font-weight: bold;
+}
+.button {
+  margin: 10px 0 0px;
+height: 40px;
+border-radius: 10px;
+padding: 0px 10px 0 10px;
+margin-left: 20px;
+border: none;
+box-shadow: 0 0 2px rgba(0, 0, 0, 0.8);
+background-color: #ff8311;
+color: white;
+}
+.button:hover {
+  background-color: orange;
+  color: black;
+}
+.conta-f4bank {
+  height: 90vh;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.div-conteudo {
+  margin-left: 100px;
+  align-self: center;
+  letter-spacing: 3px;
+  text-shadow: 1px 1px black;
+  font-family: 'Oswald', sans-serif;
+}
+.conta-f4bank div h1 {
+  color: #ff8311;
+  font-size: 48px;
+  font-weight: bold;
+}
+.conta-f4bank div h1:hover {
+  text-decoration: underline;
+}
+.conta-f4bank div p:nth-of-type(1) {
+  font-weight: bold;
+  font-size: 48px;
+}
+.conta-f4bank div a {
+  color: #ff8311;
+  font-size: 18px;
+  font-weight: bold;
+}
+.conta-f4bank div a:hover {
+  text-decoration: underline;
+}
+.f4-bank-image {
+  align-self: center;
+  justify-self: center;
+}
+.conta-f4bank2 {
+  height: 90vh;
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  background-color: #ff8311;
+}
+.div-conteudo2 {
+  margin-left: 200px;
+  letter-spacing: 3px;
+  text-shadow: 2px 2px black;
+  align-self: center;
+  font-family: 'Oswald', sans-serif;
+}
+.conta-f4bank2 div h1 {
+  color: white;
+  font-size: 48px;
+  font-weight: bold;
+}
+.conta-f4bank2 div h1:hover {
+  text-decoration: underline;
+}
+.conta-f4bank2 div p:nth-of-type(1) {
+  font-weight: bold;
+  font-size: 48px;
+  color: white;
+}
+.conta-f4bank2 div a {
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+}
+.conta-f4bank2 div a:hover {
+  text-decoration: underline;
+}
+.f4-bank-image2 {
+  align-self: center;
+  
+}
+.image-f4bank2 {
+  height: 579px;
+  width: 579px;
+}
+.image-f4bank {
+  height: 579px;
+  width: 579px;
+}
